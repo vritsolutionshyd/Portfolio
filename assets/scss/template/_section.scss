@@ -1,0 +1,173 @@
+/*-----------------------
+    Section With Shapes 
+------------------------*/
+
+.rbt-categories-17-area {
+    position: relative;
+
+    .gradient-shape {
+        position: absolute;
+        width: 254px;
+        height: 254px;
+        border-radius: 50%;
+        right: 26%;
+        top: 294px;
+        background: linear-gradient(180deg, #FB64AD 0%, #C586EE 100%);
+        filter: blur(200px);
+        transform: rotate(-45deg);
+    }
+}
+
+
+.rbt-course-17-area {
+    position: relative;
+    overflow: hidden;
+
+    .gradient-shape-top {
+        position: absolute;
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        right: 190px;
+        top: -168px;
+        background: linear-gradient(180deg, var(--color-primary) 0%, #C586EE 100%);
+        filter: blur(300px);
+        transform: rotate(-45deg);
+    }
+
+    .gradient-shape-bottom {
+        position: absolute;
+        width: 282px;
+        height: 282px;
+        border-radius: 50%;
+        left: 269px;
+        bottom: -127px;
+        background: linear-gradient(180deg, #FB64AD 0%, #C586EE 100%);
+        filter: blur(300px);
+        transform: rotate(-45deg);
+    }
+}
+
+.rbt-blog-17-area {
+    position: relative;
+    overflow: hidden;
+
+    .gradient-shape-top {
+        position: absolute;
+        width: 262px;
+        height: 262px;
+        border-radius: 50%;
+        right: 217px;
+        top: -161px;
+        background: linear-gradient(180deg, var(--color-primary) 0%, #C586EE 100%);
+        filter: blur(200px);
+        transform: rotate(-45deg);
+    }
+
+    .gradient-shape-bottom {
+        position: absolute;
+        width: 282px;
+        height: 282px;
+        border-radius: 50%;
+        left: 194px;
+        bottom: -108px;
+        background: linear-gradient(180deg, #FB64AD 0%, #C586EE 100%);
+        filter: blur(300px);
+        transform: rotate(-45deg);
+    }
+}
+
+.rbt-course-18-area {
+    position: relative;
+    overflow: hidden;
+
+    .gradient-shape-top {
+        position: absolute;
+        width: 347px;
+        height: 347px;
+        border-radius: 50%;
+        right: 122px;
+        top: -222px;
+        background: linear-gradient(180deg, var(--color-primary) 0%, #C586EE 100%);
+        filter: blur(300px);
+        transform: rotate(-45deg);
+    }
+
+    .gradient-shape-bottom {
+        position: absolute;
+        width: 282px;
+        height: 282px;
+        border-radius: 50%;
+        left: 206px;
+        bottom: -167px;
+        background: linear-gradient(180deg, #FB64AD 0%, #C586EE 100%);
+        filter: blur(300px);
+        transform: rotate(-45deg);
+    }
+}
+
+.rbt-event-21-area {
+    position: relative;
+
+    .shapes {
+        .shape-1 {
+            position: absolute;
+            top: 0;
+            right: 0;
+
+            @media #{$md-layout, $sm-layout, $large-mobile} {
+                display: none;
+            }
+        }
+
+        .shape-2 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+
+            @media #{$md-layout, $sm-layout, $large-mobile} {
+                display: none;
+            }
+        }
+
+        .shape-3 {
+            position: absolute;
+            right: 124px;
+            bottom: 147px;
+
+            @media #{$md-layout, $sm-layout, $large-mobile} {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.rbt-testimonial-21-area {
+    position: relative;
+
+    .shape-1 {
+        position: absolute;
+        left: 64px;
+        bottom: 72px;
+
+        @media #{$md-layout, $sm-layout, $large-mobile} {
+            display: none;
+        }
+    }
+}
+
+
+.rbt-video-19-area {
+    position: relative;
+
+    .shape-1 {
+        position: absolute;
+        top: 170px;
+        right: 84px;
+
+        @media #{$lg-layout, $md-layout, $sm-layout, $large-mobile}{
+            display: none;
+        }
+    }
+}
